@@ -26,9 +26,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-24">
         <AuthorForm onSubmit={handleSubmit} />
-        <div className="flex">
+        <div className="bg-gray-50 flex gap-4 py-4 flex-row">
           <AuthorList authors={authors} />
           <UserList users={users} />
         </div>

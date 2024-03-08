@@ -4,7 +4,7 @@ import { AuthorInfoProps } from "../types/Props";
 const AuthorInfo = ({author}: AuthorInfoProps) => {
     return (
         <Fragment>
-            <li> {author.name} </li>
+            <li key={author.id}> {author.name} </li>
         </Fragment>
     );
 }
