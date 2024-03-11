@@ -4,8 +4,7 @@ import { UserInfoProps } from "../types/Props";
 const UserInfo = ({user}: UserInfoProps) => {
     return (
        <Fragment>
-            <li key={user.id}>{user.name}</li>
-            <li key={user.id}>{user.username}</li>
+            <li key={user.id}>Name: {user.name}, Username: {user.username} </li>
         </Fragment>
     )
 }
