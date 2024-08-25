@@ -9,12 +9,12 @@ This repository contains a React application modelling a simple author and user 
 The main features that the app provides are:
 
 1. Author Management:
-- The app allows users to add new authors using a form (AuthorForm component).
-= It displays a list of added authors (AuthorList component).
+- The app allows users to add new authors using a form (AuthorForm component)
+- It displays a list of added authors (AuthorList component)
 
 2. User Display:
-- The app fetches user data from an external API (https://jsonplaceholder.typicode.com/users).
-- It displays a list of these users (UserList component).
+- The app fetches user data from an external API (https://jsonplaceholder.typicode.com/users)
+- It displays a list of these users (UserList component)
 
 ## Starting the application
 
